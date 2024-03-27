@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rohach/school/static/css/main.02cca4e3.css",
+    "main.js": "/rohach/school/static/js/main.20435904.js",
+    "static/media/book.png": "/rohach/school/static/media/book.21aca189a617ace980c6.png",
+    "static/media/events.png": "/rohach/school/static/media/events.d6ff72c374cda428e4f1.png",
+    "static/media/home.png": "/rohach/school/static/media/home.c71515c153c748041d0b.png",
+    "static/media/classworks.webp": "/rohach/school/static/media/classworks.1431263da85e6a3e555b.webp",
+    "static/media/geometry-bg.jpg": "/rohach/school/static/media/geometry-bg.6a1c85231d4bf1f0ae9f.jpg",
+    "static/media/middle.png": "/rohach/school/static/media/middle.8ba974d7d22e8b9f4514.png",
+    "static/media/elementry.png": "/rohach/school/static/media/elementry.0535db6d101fd1a0f93f.png",
+    "static/media/minor.png": "/rohach/school/static/media/minor.bdcc2f0961aaca567a77.png",
+    "static/media/me.jpg": "/rohach/school/static/media/me.2970db772aaa452bca16.jpg",
+    "static/media/kids.jpg": "/rohach/school/static/media/kids.3c47bd98ea756e73aeea.jpg",
+    "static/media/mind.png": "/rohach/school/static/media/mind.39286b12332ea3a29723.png",
+    "static/media/event2.jpg": "/rohach/school/static/media/event2.225bb653667640c927b9.jpg",
+    "index.html": "/rohach/school/index.html",
+    "main.02cca4e3.css.map": "/rohach/school/static/css/main.02cca4e3.css.map",
+    "main.20435904.js.map": "/rohach/school/static/js/main.20435904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02cca4e3.css",
+    "static/js/main.20435904.js"
+  ]
+}
