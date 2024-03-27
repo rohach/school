@@ -1,41 +1,37 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import './App.css';
+import { ChakraProvider, theme } from '@chakra-ui/react';
+import Navbar from './Components/Common/Navbar/Navbar';
+import { BrowserRouter } from 'react-router-dom';
+import Home from './Components/Pages/Home/Home';
+import About from './Components/Pages/About/About';
+import Right from './Components/Pages/Right/Right';
+import Events from './Components/Pages/Events/Events';
+import Gallery from './Components/Pages/Gallery/Gallery';
+import Teachers from './Components/Pages/Teachers/Teachers.jsx';
+import Newsletter from './Components/Pages/Newsletter/Newsletter.jsx';
+import Blog from './Components/Pages/Blog/Blog.jsx';
+import Footer from './Components/Common/Footer/Footer.jsx';
+import Headroom from 'react-headroom';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
-    </ChakraProvider>
+    <BrowserRouter>
+      <ChakraProvider theme={theme}>
+        <Headroom>
+          <Navbar />
+        </Headroom>
+        <Home />
+        <About />
+        <Right />
+        <Events />
+        <Gallery />
+        <Teachers />
+        <Blog />
+        <Newsletter />
+        <Footer />
+      </ChakraProvider>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 85%;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+}
+.nav_ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.icon{
+  font-weight: 700;
+  font-size: 2rem;
+}
+.menu_link {
+  font-weight: 700;
+}
+.menu_btn {
+  display: none;
+}
+@media (max-width: 991px) {
+  .menu_btn {
+    display: block;
+  }
+  .menu_link {
+    display: none;
+  }
+}
